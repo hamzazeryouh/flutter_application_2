@@ -1,8 +1,15 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:car_rental/routes/app_routes.dart';
+import 'package:car_rental/models/filter_state.dart';
 
 void main() {
-  runApp(const CarRentalApp());
+  runApp(
+    ChangeNotifierProvider(
+      create: (_) => FilterState(),
+      child: const CarRentalApp(),
+    ),
+  );
 }
 
 class CarRentalApp extends StatelessWidget {
