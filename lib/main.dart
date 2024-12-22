@@ -18,7 +18,7 @@ class CarRentalApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Qent Car Rental',
+      title: 'Vzune Car Rental',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,

@@ -14,14 +14,14 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
 
   final List<OnboardingPage> _pages = [
     const OnboardingPage(
-      title: 'Welcome to\nQent',
+      title: 'Welcome to Vzune Car Rental',
       description: '',
-      image: 'assets/images/onboarding1.jpg',
+      image: 'assets/images/onboarding1.avif',
     ),
     const OnboardingPage(
       title: 'Lets Start\nA New Experience\nWith Car rental.',
-      description: 'Discover your next adventure with Qent, we\'re here to provide you with a seamless rental experience and get you behind the wheel.',
-      image: 'assets/images/onboarding2.jpg',
+      description: 'Discover your next adventure with Vzune, we\'re here to provide you with a seamless rental experience and get you behind the wheel.',
+      image: 'assets/images/onboarding2.avif',
     ),
   ];
 

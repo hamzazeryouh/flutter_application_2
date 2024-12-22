@@ -28,7 +28,7 @@ class AuthHeader extends StatelessWidget {
             ),
             const SizedBox(width: 8),
             const Text(
-              'Qent',
+              'Vzune',
               style: TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,

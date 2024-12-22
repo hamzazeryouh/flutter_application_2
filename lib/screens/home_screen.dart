@@ -19,7 +19,7 @@ class HomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const Text(
-                    'Qent',
+                    'Vzune',
                     style: TextStyle(
                       fontSize: 24,
                       fontWeight: FontWeight.bold,
